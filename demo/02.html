@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;                /* explanatory */
+      }
+      .wrapper {
+        height: 50px;             /* explanatory */
+        border: 1px solid pink;   /* explanatory */
+      }
+      #box1 {
+        display: table;
+        margin: 0 auto;
+        height: 100%;             /* explanatory */
+        border: 1px solid green;  /* explanatory */
+      }
+      #box2 {
+        width: 25%;
+        margin: 0 auto;
+        height: 100%;             /* explanatory */
+        border: 1px solid green;  /* explanatory */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="box1">Centered Box1</div>
+    </div>
+
+    <br /><br />
+    Instead of setting `display: table` you can also set a particular width to make it work, e.g. `width: 25%`
+    <div class="wrapper">
+      <div id="box2">Centered Box2</div>
+    </div>
+  </body>
+</html>
