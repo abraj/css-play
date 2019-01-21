@@ -11,7 +11,7 @@
 * What does `auto` do in `margin: 0 auto`: https://stackoverflow.com/a/3170774/7416001
 
 ## Vertical align elements to bottom/middle
-* [Demo link](demo/03.html)
+* [Demo1](demo/03.html), [Demo2](demo/04.html)
 * https://stackoverflow.com/a/13586293/7416001
 
 ## Miscellaneous
